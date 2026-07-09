@@ -1,0 +1,9 @@
+{
+  "results": {
+    "Decision Tree": 0.8211382113821138,
+    "Random Forest": 0.8373983739837398,
+    "KNN": 0.8130081300813008,
+    "XGBoost (GradientBoosting fallback)": 0.7967479674796748
+  },
+  "best_model": "Random Forest"
+}

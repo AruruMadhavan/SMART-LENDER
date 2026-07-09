@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Prediction Result</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container result-container">
+    <h1>💰 Smart Lender</h1>
+    <div class="result-card">
+      <h2>{{ result }}</h2>
+      <p>Model confidence: <strong>{{ confidence }}</strong></p>
+    </div>
+    <a href="/" class="back-btn">← Check another application</a>
+  </div>
+</body>
+</html>
